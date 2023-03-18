@@ -22,8 +22,8 @@ moveStack in Movebank format
 ### Artefacts
 `data_shps.zip`: zipped file containing the shapefile files for input to a GIS software. The four files are `data.dbf`, `data.prj`, `data.shp` and `data.shx`, and contain all tracking data of the input data set.
 
-### Parameters 
-no parameters
+### Settings
+**File name ('file.name'):** Insert a file name for your shapefile folder, don't use spaces. Defaults to `moveapps-shapefile`
 
 ### Null or error handling:
 **Data:** The full input data set is returned for further use in a next App and cannot be empty.
